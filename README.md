@@ -1,10 +1,10 @@
-# Terminal Output Streamer
+# Go Terminal Streamer
 
 A lightweight Go application that streams terminal command output to a web browser in real-time.
 
 ## Overview
 
-Terminal Output Streamer captures the stdout and stderr streams from a running command and broadcasts them in real-time to connected web clients using WebSockets. This is particularly useful for monitoring long-running processes like build commands, deployments, or any command that produces output over time.
+Go Terminal Streamer captures the stdout and stderr streams from a running command and broadcasts them in real-time to connected web clients using WebSockets. This is particularly useful for monitoring long-running processes like build commands, deployments, or any command that produces output over time.
 
 ## Features
 
@@ -23,8 +23,8 @@ Terminal Output Streamer captures the stdout and stderr streams from a running c
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/terminal-streamer
-cd terminal-streamer
+git clone https://github.com/yourusername/go-terminal-streamer
+cd go-terminal-streamer
 
 # Build the application
 go build -o terminal-streamer
