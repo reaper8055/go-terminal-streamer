@@ -74,17 +74,17 @@ This project showcases how Linux handles standard output streams:
 
 ## Testing with the Output Generator
 
-The repository includes a bash script `test-output-generator.sh` that randomly generates stdout and stderr messages to help test the terminal streamer:
+The repository includes a bash script `output-generator.sh` that randomly generates stdout and stderr messages to help test the terminal streamer:
 
 ```bash
 # Make the script executable
-chmod +x test-output-generator.sh
+chmod +x output-generator.sh
 
 # Run it standalone to see its output
-./test-output-generator.sh
+./output-generator.sh
 
 # Use it with the terminal streamer
-./terminal-streamer -cmd "./test-output-generator.sh"
+./terminal-streamer -cmd "./output-generator.sh"
 ```
 
 This script runs until terminated with Ctrl+C and produces a mix of informational, warning, and error messages with varying time intervals.
